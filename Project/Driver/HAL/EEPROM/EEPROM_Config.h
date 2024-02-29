@@ -1,0 +1,18 @@
+/*
+ * EEPROM_Config.h
+ *
+ *  Created on: Sep 5, 2023
+ *      Author: 00214
+ */
+
+#ifndef DRIVER_HAL_EEPROM_EEPROM_CONFIG_H_
+#define DRIVER_HAL_EEPROM_EEPROM_CONFIG_H_
+
+#define EEPROM_TYPE   			EIGHT_KBIT
+
+
+#define EEPROM_A2_STATE			GROUND
+#define EEPROM_A1_STATE			NOT_CONNECTED
+#define EEPROM_A0_STATE			NOT_CONNECTED
+
+#endif /* DRIVER_HAL_EEPROM_EEPROM_CONFIG_H_ */

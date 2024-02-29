@@ -1,0 +1,27 @@
+/*
+ * UART_config.h
+ *
+ *  Created on: Jul 14, 2023
+ *      Author: 00214
+ */
+
+#ifndef DRIVER_MCAL_UART_UART_CONFIG_H_
+#define DRIVER_MCAL_UART_UART_CONFIG_H_
+// MODE
+#define SPEED_MODE   NORMAL
+
+//  TRANSMITTER , RECIEVER , TRANSCIEVER
+
+#define UART_MODE    TRANSCIEVER
+//
+#define BUAD_RATE   4800ul
+// FIVE ,SIX,EIGHT
+#define DATA_LEN	EIGHT
+
+#define PARITY_STATE  NO_PARITY
+
+#define STOP_STATE    ONE_STOP_BIT
+
+#define CLOCK_MODE    ASYCH
+
+#endif /* DRIVER_MCAL_UART_UART_CONFIG_H_ */
